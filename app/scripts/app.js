@@ -6,8 +6,16 @@ angular.module('angularTesterApp', [])
       .when('/', {
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
-      })
-      .otherwise({
-        redirectTo: '/'
       });
+      /*.otherwise({
+        redirectTo: '/'
+      });*/
+
+      $routeProvider
+      .when('/login', {
+        templateUrl: 'views/login.html',
+        controller: 'LoginCtrl'
+      });
+
+      $routeProvider.otherwise({redirectTo: '/'});
   });

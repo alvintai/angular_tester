@@ -6,7 +6,7 @@ body {
 
 .hero-unit {
     margin: 50px auto 0 auto;
-    width: 300px;
+    /*width: 550px;*/
     font-size: 18px;
     font-weight: 200;
     line-height: 30px;
@@ -19,4 +19,19 @@ body {
     font-size: 60px;
     line-height: 1;
     letter-spacing: -1px;
+}
+
+.offset-top.affix {
+    top:60px;
+
+}
+
+.main-nav {
+    margin-left:0px;
+    width:160px;
+
+}
+
+.main-nav:after{
+    clear:both;
 }

@@ -7,4 +7,7 @@ angular.module('angularTesterApp')
       'AngularJS',
       'Karma'
     ];
+
+    $scope.title="TESTTITLE";
+    $scope.message="Ultimate Quality Systems for Medical Devices";
   });
