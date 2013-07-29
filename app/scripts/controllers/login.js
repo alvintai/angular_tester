@@ -1,7 +1,6 @@
 'use strict';
 
-angular.module('angularTesterApp')
-  .controller('LoginCtrl', function ($scope, $location) {
+app.controller('LoginCtrl', function ($scope, $location) {
     window.scope = $scope;
  $scope.credentials={email:"", password:""};
 

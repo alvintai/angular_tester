@@ -26,6 +26,7 @@
     <div class="span9">
       <div class="hero-unit">
         <h1>{{ message }}</h1>
+        <img src="http://placehold.it/500x500" shows-message-when-hovered message="You're hovering over me!">
         <p>You now have</p>
         <ul>
             <li ng-repeat="thing in awesomeThings">{{thing}}</li>
@@ -34,6 +35,7 @@
         <h3>Enjoy coding! - Yeoman</h3>
 
         <a href="/#/login">Login here</a>
+        <a href="" ng-click="logout()">Logout</a>
       </div>
     </div>
 </div>

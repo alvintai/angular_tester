@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('angularTesterApp', [])
+var app = angular.module('angularTesterApp', [])
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
