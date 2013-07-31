@@ -1,0 +1,17 @@
+<div ng-controller="tutCtrl">
+
+<div class = "">
+  Seach: <input ng-model="query">
+</div>
+  <ul>
+    <li ng-repeat="phone in phones | filter:query">
+      {{phone.name}}
+      <p>
+        {{phone.snippet}}
+      </p>
+    </li>
+  </ul>
+
+</div>
+
+<div>  {{query}}</div>

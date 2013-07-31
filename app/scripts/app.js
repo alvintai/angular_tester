@@ -17,5 +17,10 @@ var app = angular.module('angularTesterApp', [])
         controller: 'LoginCtrl'
       });
 
+      $routeProvider
+      .when('/tutorial', {
+        templateUrl: 'views/tutorial.html',
+      });
+
       $routeProvider.otherwise({redirectTo: '/'});
   });
